@@ -1,0 +1,17 @@
+{
+  "name": "assignment8",
+  "version": "1.0.0",
+  "description": "Express + MongoDB endpoints for assignment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
